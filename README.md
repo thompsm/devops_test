@@ -28,6 +28,17 @@ and run the following command:
 
 chef-client --minimal-ohai -z devops_test.rb
 
+Once deployed, you can test it by opening a web browser (FireFox for example)
+and then going to the following URL:
+
+http://127.0.0.1:8080
+
+If it works, you will see a message like:
+
+Hi there, I'm served from appserver1!
+
+If you reload the page, you should see the reponse from the second app server.
+
 ## TODO
 
 - Add some tests, eg serverspec
