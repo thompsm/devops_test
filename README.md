@@ -18,6 +18,7 @@ No community cookbooks are used to deliberately keep things simple
 * ChefDK 0.9.0
 * Vagrant 1.7.4
 * Direct internet connection
+* VirtualBox 4.3.28
 
 ## Platform
 * Ubuntu Precise
@@ -28,7 +29,7 @@ and run the following command:
 
 chef-client --minimal-ohai -z devops_test.rb
 
-Once deployed, you can test it by opening a web browser (FireFox for example)
+Once deployed, you can test it by opening a web browser (Firefox for example)
 and then going to the following URL:
 
 http://127.0.0.1:8080
