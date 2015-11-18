@@ -42,7 +42,6 @@ If you reload the page, you should see the reponse from the second app server.
 
 ## TODO
 
-- Add some tests, eg serverspec
 
 ## License and Author
 
